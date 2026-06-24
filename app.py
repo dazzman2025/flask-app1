@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Flask App Running Inside Docker!"
+    return "Flask App updated  Running Inside Docker!"
 
 @app.route("/about")
 def about():
